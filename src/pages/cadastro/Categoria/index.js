@@ -26,7 +26,7 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias';
+    const URL = 'https://isflix.herokuapp.com/categorias/';
     fetch(URL)
       .then(async (respostaServidor) => {
         const resposta = await respostaServidor.json();
