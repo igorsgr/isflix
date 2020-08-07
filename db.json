@@ -2,15 +2,101 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Front End",
-      "descricao": "Uma categoria show",
-      "cor": "#6bd1ff"
+      "titulo": "Música",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
     },
     {
       "id": 2,
-      "nome": "Back End",
-      "descricao": "Outra categoria show",
-      "cor": "#6bd1ff"
+      "titulo": "Back-End",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Bruno e Marrone - Por Um Gole A Mais / Sonho Louco (Cover Igor Alencar Part. Rick Azevedo)",
+      "url": "https://www.youtube.com/watch?v=49lHIuND4MA"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Filipe Ret - ILUSÃO ⏳ (pd. Dallass)",
+      "url": "https://www.youtube.com/watch?v=3DqKscyJij0"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Haikaiss e Projota - Pra Te Convencer (VÍDEO OFICIAL)1",
+      "url": "https://www.youtube.com/watch?v=ObQs0pwj_A8"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Rashid - Pipa Voada ft. Emicida, Lukinhas",
+      "url": "https://www.youtube.com/watch?v=QSdRzZeQ0Xo"
+    },
+    {
+      "id": 5,
+      "categoriaId": 2,
+      "titulo": "L7NNON - Algumas Frases ( prod. Papatinho )",
+      "url": "https://www.youtube.com/watch?v=ckfjX0B-KfM"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Filipe Ret - ILUSÃO ⏳ (pd. Dallass)",
+      "url": "https://www.youtube.com/watch?v=3DqKscyJij0"
+    },
+    {
+      "titulo": "Titulo padrão",
+      "url": "https://www.youtube.com/watch?v=yczWRldp3LM",
+      "categoriaId": 1,
+      "id": 7
+    },
+    {
+      "titulo": "Titulo padrão",
+      "url": "https://www.youtube.com/watch?v=yczWRldp3LM",
+      "categoriaId": 1,
+      "id": 8
+    },
+    {
+      "titulo": "Titulo padrão",
+      "url": "https://www.youtube.com/watch?v=yczWRldp3LM",
+      "categoriaId": 1,
+      "id": 9
+    },
+    {
+      "titulo": "Titulo padrão",
+      "url": "https://www.youtube.com/watch?v=yczWRldp3LM",
+      "categoriaId": 1,
+      "id": 10
+    },
+    {
+      "titulo": "Titulo padrão",
+      "url": "https://www.youtube.com/watch?v=yczWRldp3LM",
+      "categoriaId": 2,
+      "id": 11
+    },
+    {
+      "titulo": "Titulo padrão",
+      "url": "https://www.youtube.com/watch?v=yczWRldp3LM",
+      "categoriaId": 2,
+      "id": 12
+    },
+    {
+      "titulo": "Teste",
+      "url": "https://www.youtube.com/watch?v=Kj22FiMVYjY",
+      "categoriaId": 2,
+      "id": 13
     }
   ]
 }
